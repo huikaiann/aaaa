@@ -1,5 +1,9 @@
 # aaaa
 
+.. math::
+        \mathbf{x}^{\prime}_i = \mathbf{W}_1 \mathbf{x}_i + \mathbf{W_2} \cdot
+        \mathrm{mean}_{j \in \mathcal{N(i)}} \mathbf{x}_j
+
 
 Note: Source function taken from PyTorch Geometric and modified such that
     embeddings are first concatenated and then reduced to out_channel size as
